@@ -1,0 +1,13 @@
+.option {
+    display: grid;
+    grid-template-rows: 67% 33%;
+
+    width: 90%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 5vh;
+
+    border: rgb(28,30,50) 3px solid;
+    border-radius: 25px;
+    text-align: center;
+}

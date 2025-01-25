@@ -1,0 +1,14 @@
+.textSection {
+    margin: 5vw;
+    font-family: 'Figtree';
+    background-image: url('../images/pattern.jpg');
+}
+
+.textSection > p {
+    font-size: 1.4vw;
+    line-height: 2vw;
+}
+
+.textSection > h2 {
+    color: rgb(28,30,50);
+}

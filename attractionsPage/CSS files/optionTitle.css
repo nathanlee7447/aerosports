@@ -1,0 +1,12 @@
+.optionTitle {
+    width: 98%;
+    height: 90%;
+    margin: auto;
+
+    border: rgb(28,30,50) 5px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    background-color: rgb(28,30,50);
+    color: white;
+}

@@ -1,0 +1,35 @@
+.birthdaySelect {
+    width: 95vw;
+    
+    display: inline-flex;
+    grid-template-columns: 40vw 40vw;
+
+    text-align: center;
+    font-family: 'Figtree';
+}
+
+.birthdaySubselect {
+    margin:0 auto;
+
+    width: 40vw;
+    height: auto;
+
+    border: 0.7vw solid;
+    border-color:rgb(28,30,50);
+    border-radius: 25px;
+    
+    text-align: center;
+}
+
+.featuresList > li {
+    text-align: left;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.featuresList > h2 {
+    text-align: left;
+    font-size: 2vw;
+}
