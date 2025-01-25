@@ -1,0 +1,15 @@
+.locations {
+    display: grid;
+
+    grid-template-columns: 40% 60%;
+}
+
+.locations_right {
+    font-family: "Figtree";
+    text-align: center;
+}
+
+.locations_right > h2 {
+    font-size: 3vw;
+    font-weight: 900;
+}

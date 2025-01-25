@@ -1,0 +1,26 @@
+.textSection {
+    font-family: 'Figtree';
+    background-image: url('../images/pattern.jpg');
+
+    text-align: left;
+    margin: 4vw;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}
+
+.textSection > h1 {
+    font-weight: 800;
+}
+
+.textSection > h2 {
+    font-size: 2.2vw;
+}
+
+.textSection > p {
+    font-size: 1.5vw;
+    line-height: 6vh;
+}
+
+.textSection > ul {
+    line-height: 4.7vh;
+}

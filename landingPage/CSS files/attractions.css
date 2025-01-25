@@ -1,0 +1,27 @@
+.attractions {
+    background-image: url("https://img.myloview.com/murals/vector-seamless-pattern-modern-stylish-abstract-texture-repeating-geometric-tiles-700-254224924.jpg");
+    background-color: rgb(201, 201, 201);
+    background-blend-mode: lighten;
+
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-gap: 1vw;
+}
+
+.attractions_text{
+    font-family: "Figtree";
+    text-align: left;
+
+    margin-left: 2vw;
+}
+
+.attractions_text > h2 {
+    font-weight: 900;
+    font-size: 3vw;
+}
+
+.attractions_text > p {
+    line-height: 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}

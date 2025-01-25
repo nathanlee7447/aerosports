@@ -1,0 +1,19 @@
+.ages1 {
+    display: inline-flex;
+    grid-template-columns: 40vw 40vw;
+}
+
+.agesSubsection {
+    margin-left:5vw;
+    font-family: 'Figtree';
+    text-align: center;
+    width: 40vw;
+
+    border: 0.5vw solid;
+    border-color: rgb(28,30,50);
+    border-radius: 25px;
+}
+
+.agesSubsection > h2 {
+    font-size: 2.5vw;
+}

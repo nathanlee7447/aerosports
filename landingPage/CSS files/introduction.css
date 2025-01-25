@@ -1,0 +1,78 @@
+html {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: 60% 60%;
+}
+
+.introduction_left{
+    font-family: "Figtree";
+    text-align: center;
+
+    width: 55%;
+
+    margin: 0;
+}
+
+.introduction_left > h1 {
+    font-size:5vw;
+    font-weight: 900;
+}
+
+.introduction_left_button {
+    width: 15vw;
+    height: 3vw;
+
+    background-color: rgb(28,30,50);
+    color: white;
+    transform: skew(-15deg);
+
+    font-family: "Figtree";
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.introduction_right {
+    margin-top: 3%;
+    width: 51.5%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    left: 35vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.introduction_bottom {
+    display: grid;
+    grid-template-columns: 28% 43% 28%;
+    background-color: rgb(28,30,50);
+    padding: 1vw;
+
+    font-family: "Figtree";
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.introduction_bottom_button { 
+    width: 15vw;
+    height: 3vw;
+
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border: 3px solid;
+    margin: auto;
+    margin-top: 1.5vw;
+    transform: skew(-15deg);
+
+    font-family: "Figtree";
+    font-size: 1.5vw;
+    font-weight: 600;
+}

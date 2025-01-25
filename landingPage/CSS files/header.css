@@ -1,0 +1,15 @@
+.header {
+    display: inline-block;
+    width: 100%;
+
+    border: 3px solid;
+    border-color: black;
+}
+
+.header_right {
+    float:right;
+}
+
+.headerButton {
+    
+}

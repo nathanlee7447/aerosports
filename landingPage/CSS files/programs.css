@@ -1,0 +1,54 @@
+
+.programs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.programsImage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,5vw);
+
+    margin: 1vw;
+    margin-right: 0;
+    margin-top: 6vh;
+}
+
+#program1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+#program2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#program3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.programsText {
+    font-family: "Figtree";
+    text-align: center;
+}
+
+.programsText > h1 {
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.programsText > p {
+    line-height: 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
